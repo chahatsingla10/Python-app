@@ -48,7 +48,7 @@ def cal():
     root.title("Calc")
     root.resizable(0, 0)
 
-    entry_font = font.Font(size=16)
+    entry_font = font.Font(size=15)
     entry = Entry(root, justify="right", font=entry_font)
     entry.grid(row=0, column=0, columnspan=4,
                sticky=N + W + S + E, padx=5, pady=5)
